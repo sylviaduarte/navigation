@@ -17,17 +17,26 @@
 .logo {
     height: 150px;
     width: 600px;
+    padding:  10px 0 0 10px
 }
 
 .call_button {
+    font-family: Helvetica, Arial, sans-serif;
     height: max-content;
-    width: 250px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #25722A;
+    color: white;
+    padding: 10px;
+    margin-right: 50px;
+    font-size: 20px;
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+    overflow: hidden;
 }
 
 /*Header Design*/
@@ -36,16 +45,14 @@ img {
     position: sticky;
     top: 0;
     background-color: white;
-    height: 215px;
-    width: 1892px;
+    height: 230px;
+    width: auto;
 }
 
 ul {
     list-style: none;
 }
-
-    /*Need to change gap to center header*/
-
+  
 a {
     font-family: AirFactoryRounded;
     text-decoration: none;
@@ -76,19 +83,19 @@ li a:hover {
   }
 
   
-@media (min-width: 800px) {
-    .menu{
+  @media (min-width: 800px) {
+    .menu {
       flex-direction:row;
       justify-content:space-around;
     }
-}
+  } 
 
 .drop_down > a:after{
   padding:1px;
 }
 
 nav ul ul {
-    display: none;
+  display: none;
 }
 
 @media (min-width: 800px) {
@@ -113,6 +120,46 @@ nav ul li:hover > ul {
   nav ul li:hover > ul a{
     color:#25722A;
   }
-  
 
+/*Main Page*/
+
+}
+.welcome_container {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('images/office.jpeg');
+  height: 1706px;
+  width: auto;
+  padding: 5%;
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  gap: 5%;
+}
+
+.card {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  background-color: #25722A;
+  color: white;
+  padding: 10px;
+  margin: 4%;
+  font-size: 25px;
+}
+
+iframe {
+  width: 460px;
+  height: 600px;
+}
+
+.pcmh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pcmh {
+  width: 200px; 
+  height: 200px;
+  object-fit: cover;
 }
