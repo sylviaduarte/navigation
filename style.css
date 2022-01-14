@@ -141,16 +141,24 @@ nav ul li:hover > ul {
 .card {
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 10px;
-  background-color: #25722A;
+  background-color: #1b551f;
   color: white;
   padding: 10px;
   margin: 4%;
   font-size: 25px;
 }
+.new_page {
+  text-decoration: none;
+  color: white;
+}
+.new_page:hover {
+  text-decoration: underline solid 2px;
+
+}
 
 iframe {
   width: 460px;
-  height: 600px;
+  height: 920px;
 }
 
 .pcmh {
@@ -158,8 +166,21 @@ iframe {
   align-items: center;
   justify-content: center;
 }
+
 #pcmh {
-  width: 200px; 
-  height: 200px;
+  width: 250px; 
+  height: 250px;
   object-fit: cover;
+  padding-top: none;
+}
+
+.navicall {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navicall {
+  width: 400px;
+  height: auto
 }
