@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation Medical Center</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <!--Dropdown animation for header buttons in css-->
@@ -14,52 +15,55 @@
 <body>
 
 <!-- Top Banner Display-->
+    <div class="top">
+        <section class= "banner">
+            <div class="banner_container">
+                <div class="logo">
+                    <img src="images/Navi.png">
+                </div>
+                <div class="call_button">
+                    <div>Call to schedule your appointment at (713) 223-4466</div>
+                </div>
+            </div>
+        </section>
 
-    <div class="banner">
-        <div class="logo">
-            <img src="images/Navi.png">
-        </div>
-        <div class="call_button"></div>
-            <div>Call to schedule!</div>
-            <div>(713) 223-4466</div>
+    <!--Header-->
+        <!-- Made with unordered list; certain items in list have class that defines action-->
+        <!--"drop_down" = class for drop down menu (addtl unordered list)-->
+        <!--For future reference with drop down= https://codepen.io/drweb/pen/XWJQKNN-->
+        <!-- MAKE PAGES for headers to link to-->
+        
+        <nav class="main_navigation">
+            <ul class="menu">
+                <li><a href="services.html">SERVICES</a></li>
+
+                <li class="drop_down"><a>ABOUT US</a>
+                    <ul class="sub_menu">
+                        <li><a href="aboutus/whoweare.html">Who We Are</a></li>
+                        <li><a href="aboutus/providers.html">Providers</a></li>
+                        <li><a href="aboutus/pcmh.html">PCMH</a></li>
+                    </ul>   
+                </li>
+
+                <li><a href="insurance.html">INSURANCE & PAYMENT</a></li>
+
+                <!--Ask Dad for list of insurances-->
+
+                <li class="drop_down"><a>FOR PATIENTS</a>
+                    <ul class="sub_menu">
+                        <li><a href="forpatients/newpatientinfo.html">New Patient Info</a></li>
+                        <li><a href="forpatients/patientportal.html">Patient Portal</a></li>
+                        <li><a href="forpatients/faq.html">FAQ</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="contactus.html">CONTACT US</a></li>
+
+                <!--Do I need a link?-->
+
+            </ul>
+        </nav>
     </div>
-
-<!--Header-->
-    <!-- Made with unordered list; certain items in list have class that defines action-->
-    <!--"drop_down" = class for drop down menu (addtl unordered list)-->
-    <!--For future reference with drop down= https://codepen.io/drweb/pen/XWJQKNN-->
-    <!-- MAKE PAGES for headers to link to-->
-    
-    <nav class="main_navigation">
-        <ul class="menu">
-            <li><a href="services.html">SERVICES</a></li>
-
-            <li class="drop_down"><a>ABOUT US</a>
-                <ul class="sub_menu">
-                    <li><a href="aboutus/whoweare.html">Who We Are</a></li>
-                    <li><a href="aboutus/providers.html">Providers</a></li>
-                    <li><a href="aboutus/pcmh.html">PCMH</a></li>
-                </ul>   
-            </li>
-
-            <li><a href="insurance.html">INSURANCE & PAYMENT</a></li>
-
-            <!--Ask Dad for list of insurances-->
-
-            <li class="drop_down"><a>FOR PATIENTS</a></li>
-                <ul class="sub_menu">
-                    <li><a href="forpatients/newpatientinfo.html">New Patient Info</a></li>
-                    <li><a href="forpatients/patientportal.html">Patient Portal</a></li>
-                    <li><a href="forpatients/faq.html">FAQ</a></li>
-                </ul>
-                
-            <li><a href="LINK PAGE">CONTACT US</a></li>
-
-            <!--Do I need a link?-->
-
-        </ul>
-    </nav>
-
 <!--Aligned Welcome Screen-->
 
     <div class="welcome_container">
