@@ -17,13 +17,21 @@
 <!-- Top Banner Display-->
     <div class="top">
         <section class= "banner">
-            <div class="banner_container">
+            <div class= banner_container>
                 <div class="logo">
                     <img src="images/Navi.png">
                 </div>
-                <div class="call_button">
-                    <div>Call for appointment: <b>(713) 223-4466</b></div>
-                </div>
+            </div>
+            <div class="call_buttons">
+                    <div class= "call">
+                        <div>Call for appointment: <b>(713) 223-4466</b></div>
+                    </div>
+                    <div class= "call">
+                        <div>Telemedicine and walk-ins welcome!</div>
+                    </div>
+                    <div class= "call">
+                        <div><b>EN ESPAÑOL >></b></div>
+                    </div>
             </div>
         </section>
 
@@ -68,57 +76,52 @@
     <div class="welcome_container">
 
     <!-- Blocks of information that will display COVID info, PCMH, and Nav Call Center link-->
-
-        <section class="line_2">
-            <div class="card_container">
-                
-                <div class="card">
-                    <p><b>COVID-19 vaccines available now!</b></p>
-                    <a href="services.html">
-                        <div class="new_page">MORE INFO >></div>
-                    </a>
-                </div>
-                <div class="card">
-                    <p><b>We are a Patient-Centered Medical Home.</b></p> 
-                    <div class="pcmh">
-                        <img id="pcmh" src="images/PCMH.png">
+        <div class="content">
+            <section class="line_2">
+                <div class="card_container">
+                    
+                    <div class="card">
+                        <p><b>COVID-19 vaccines available now!</b></p>
+                        <a href="services.html">
+                            <div class="new_page">MORE INFO >></div>
+                        </a>
                     </div>
-                    <a href="aboutus/pcmh.html">
-                        <div class="new_page">LEARN MORE >></div>
-                    </a>
-                </div>
-                <div class="card">
-                    <p><b>NaviCall: Medical Office Management Solutions.</b></p> 
-                    <div class="navicall">
-                        <img id="navicall" src="images/navicall.png">
+                    <div class="card">
+                        <p><b>We are a Patient-Centered Medical Home.</b></p> 
+                        <div class="pcmh">
+                            <img id="pcmh" src="images/PCMH.png">
+                        </div>
+                        <a href="aboutus/pcmh.html">
+                            <div class="new_page">LEARN MORE >></div>
+                        </a>
                     </div>
-                    <a href="http://navicallusa.com/">
-                        <div class="new_page">VISIT OUR SITE >></div>
-                    </a>
+                    <div class="card">
+                        <p><b>NaviCall: Medical Office Management Solutions.</b></p> 
+                        <div class="navicall">
+                            <img id="navicall" src="images/navicall.png">
+                        </div>
+                        <a href="http://navicallusa.com/">
+                            <div class="new_page">VISIT OUR SITE >></div>
+                        </a>
+                    </div>
+                </section>
+            
+            <section class="line_1">
+                <div class="blog">
+                    <iframe src=https://testannounce.blogspot.com></iframe>
                 </div>
+                    <!--Replace link with actual blog site-->
             </section>
-        
-        <section class="line_1">
-            <div class="card">
-                <p><i>Telemedicine and walk-ins welcome!</i></p>
-                    </div>
-            <div class="blog">
-                <iframe src=https://testannounce.blogspot.com></iframe>
-            </div>
-                <!--Replace link with actual blog site-->
-        </section>
-
+        </div>
     </div>
 
 <!-- Footer -->
 
 <!-- Main Footer-->
-    <div class="footer_container">
-        <footer> 
-            <section class="ft_main">
 
+        <footer> 
                 <div class="ft_main_item">
-                    <h2 class="ft_title">Office Hours</h2>
+                    <h2 class="ft_title">Office Hours:</h2>
                     <ul>
                         <li><b>Monday - Thursday:</b> 8:00 AM - 5:00 PM</li>
                         <li><b>Friday:</b> 8:00 AM - 2:30 PM</li>
@@ -127,34 +130,51 @@
                 </div>
                 
                 <div class= "ft_main_item">
-                    <h2 class="ft_title">Call</h2>
+                    <h2 class="ft_title">Call:</h2>
                     <ul>
                         <li><b>Phone:</b> (713) 223-4466</li>
                         <li><b>Fax:</b> (713) 223-1571</li>
                     </ul>
                 </div>
-            </section>
-        
-    <!--HTML + Styling for Google Map; no additional css needed; maybe change this later-->
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=3003%20Navigation%20B&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                        <a href="https://www.whatismyip-address.com/divi-discount/"></a>
-                    <br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
-                        <a href="https://www.embedgooglemap.net">google maps link html</a>
-                    <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-                </div>
-
-    <!-- End of map embedding-->
 
                 <div class="ft_main_item">
-                    <h2 class="ft_main_item">Address</h2>
+                    <h2 class="ft_main_item">Address:</h2>
                     <ul>
                         <li>3003 Navigation Blvd</li>
                         <li>Houston, TX 77003</li>
                     </ul>
                 </div>
-
+        
+    <!--HTML + Styling for Google Map; no additional css needed; maybe change this later-->
+            <!--
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="250" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=3003%20Navigation%20Blvd&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <a href="https://123movies-to.org"></a>
+                            <br>
+                                <style>
+                                    .mapouter {
+                                        position:relative;
+                                        text-align:right;
+                                        height:250px;
+                                        width:250px;
+                                    }
+                                </style>
+                            <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                                <style>
+                                    .gmap_canvas {
+                                        overflow:hidden;
+                                        background:none!important;
+                                        height:250px;
+                                        width:250px;
+                                    }
+                                </style>
+                            </br>
+                        </div>
+                    </div>
+                -->
+    <!-- End of map embedding-->
+<!--do you have patients who do medical reimbursments?-->
         </footer>
    
 </body>
