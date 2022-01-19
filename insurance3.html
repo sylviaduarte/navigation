@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Medical Center</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<!--Dropdown animation for header buttons in css-->
+<!--https://www.w3schools.com/css/css_dropdowns.asp-->
+<!--For future reference with margins: https://stackoverflow.com/questions/12429158/how-to-add-space-to-left-right-of-the-web-page-using-html-css-->
+
+<body>
+
+<!-- Top Banner Display-->
+    <div class="top">
+        <section class= "banner">
+            <div class= banner_container>
+                <div class="logo">
+                    <a href="index.html">
+                    <img src="images/Navi.png">
+                    </a>
+                </div>
+            </div>
+            <div class="call_buttons">
+                    <div class= "call">
+                        <div>Call for appointment: <b>(713) 223-4466</b></div>
+                    </div>
+                    <div class= "call">
+                        <div>Telemedicine and walk-ins welcome!</div>
+                    </div>
+                    <div class= "call">
+                        <div><b>EN ESPAÑOL >></b></div>
+                    </div>
+            </div>
+        </section>
+
+    <!--Header-->
+        <!-- Made with unordered list; certain items in list have class that defines action-->
+        <!--"drop_down" = class for drop down menu (addtl unordered list)-->
+        <!--For future reference with drop down= https://codepen.io/drweb/pen/XWJQKNN-->
+        <!-- MAKE PAGES for headers to link to-->
+        
+        <nav class="main_navigation">
+            <ul class="menu">
+                <li><a href="services.html">SERVICES</a></li>
+
+                <li id="drop_down"><a>ABOUT US</a>
+                    <ul class="sub_menu">
+                        <li><a href="aboutus/whoweare2ahtml">Who We Are</a></li>
+                        <li><a href="aboutus/providers2b.html">Providers</a></li>
+                        <li><a href="aboutus/pcmh2c.html">PCMH</a></li>
+                    </ul>   
+                </li>
+
+                <li><a href="insurance3.html">INSURANCE & PAYMENT</a></li>
+
+                <!--Ask Dad for list of insurances-->
+
+                <li id="drop_down"><a>FOR PATIENTS</a>
+                    <ul class="sub_menu">
+                        <li><a href="forpatients/newpatientinfo4a.html">New Patient Info</a></li>
+                        <li><a href="forpatients/patientportal4b.html">Patient Portal</a></li>
+                        <li><a href="forpatients/faq4c.html">FAQ</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="contactus5.html">CONTACT US</a></li>
+
+                <!--Do I need a link?-->
+
+            </ul>
+        </nav>
+    </div>
+<!--Main Page-->
+    <div class = "title">
+        <h1>INSURANCE & PAYMENT</h1>
+    </div>
+    <div class = "insurance_container">
+        <div class = "paragraph">
+            <p><i>Updated January 14th, 2021</i></p>
+            <p>Payment for all services is expected at the time of visit. We accept cash, VISA, MasterCard, Discover, American Express, and Care Credit. Unfortunately, we do NOT accept personal or business checks. Payment plan arrangements are also available.</p>          
+            <p>We accept most major insurances.</p>
+            <p> Below is a comprehensive list of insurance plans that we have included for your convenience. Please keep in mind that this information is subject to change. Please call us at <b>713-223-4466</b> to confirm that your health plan is currently being accepted.</p>
+        </div>
+
+<!-- used docdroid.net as the pdf viewwe-->
+<div class = "insurance_list">
+    <iframe src = "https://www.docdroid.net/lRmZl5e/insurancelist-pdf" width = 1139px height = 1000px;>
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+<!-- Main Footer-->
+    
+        <footer> 
+                <div class="ft_main_item">
+                    <h2 class="ft_title">Office Hours:</h2>
+                    <ul>
+                        <li><b>Monday - Thursday:</b> 8:00 AM - 5:00 PM</li>
+                        <li><b>Friday:</b> 8:00 AM - 2:30 PM</li>
+                        <li><b>Saturday:</b> 8:00 AM - 2:30 PM</li>
+                    </ul>
+                </div>
+                
+                <div class= "ft_main_item">
+                    <h2 class="ft_title">Call:</h2>
+                    <ul>
+                        <li><b>Phone:</b> (713) 223-4466</li>
+                        <li><b>Fax:</b> (713) 223-1571</li>
+                    </ul>
+                </div>
+
+                <div class="ft_main_item">
+                    <h2 class="ft_main_item">Address:</h2>
+                    <ul>
+                        <li>3003 Navigation Blvd</li>
+                        <li>Houston, TX 77003</li>
+                    </ul>
+                </div>
+                
+        </footer>
+
+</body>
+</html>
