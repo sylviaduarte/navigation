@@ -72,12 +72,12 @@ img {
     width: auto;
 }
 
-ul {
+.main_navigation ul {
     list-style: none;
     padding-top: 10px;
 }
   
-a {
+.main_navigation a {
     font-family: AirFactoryRounded;
     text-decoration: none;
     font-size: 30px;
@@ -87,13 +87,13 @@ a {
     display: flex;
 }
 
-li a {
+.main_navigation li a {
     display:flex;
     text-align:center;
     color: #25722A
 }
 
-li a:hover {
+.main_navigation li a:hover {
     text-decoration: underline solid #25722A 3px;
   }
 
@@ -180,16 +180,18 @@ nav ul li:hover > ul {
   padding-bottom: 1%;
 }
 
-.paragraph .portal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.paragraph img {
-  cursor: pointer;
+.p_link {
+ color:#25722A;
+ font-size: 25px;
+ text-decoration: none;
+ font-weight: bold;
 }
 
+.p_link:hover {
+  text-decoration: underline 2px;
 }
+
+
 /*Footer*/
 
 footer {
@@ -223,6 +225,10 @@ footer {
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
+}
+
+.ft_main_item ul {
+  list-style-type: none;
 }
 
 h2 {
