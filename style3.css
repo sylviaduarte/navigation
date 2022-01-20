@@ -1,6 +1,6 @@
 @font-face {
-    font-family: AirFactoryRounded;
-    src: url(fonts/Air\ Factory\ Rounded.ttf);
+  font-family: AirFactoryRounded;
+  src: url(fonts/Air\ Factory\ Rounded.ttf);
 }
 
 @font-face {
@@ -163,7 +163,7 @@ nav ul li:hover > ul {
   margin-bottom: 3%;
 }
 
-.insurance_container{
+.text_container{
   margin: 0% 10%;
 }
 
@@ -220,4 +220,4 @@ footer {
 
 h2 {
   padding: 5%;
-}
+}}}

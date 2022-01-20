@@ -1,6 +1,11 @@
 @font-face {
-    font-family: AirFactoryRounded;
-    src: url(fonts/Air\ Factory\ Rounded.ttf);
+  font-family: AirFactoryRounded;
+  src: url(fonts/Air\ Factory\ Rounded.ttf);
+}
+
+@font-face {
+  font-family: ZeroNero;
+  src: url(fonts/zeronero.ttf);
 }
 * {
   margin: 0;
@@ -11,8 +16,6 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-size: cover;
-  background-image: url('images/office.jpeg');
 }
 
 /*Banner Design*/
@@ -148,78 +151,66 @@ nav ul li:hover > ul {
 
 /*Main Page*/
 
-}
-.welcome_container {
-  height: auto;
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: AirFactoryRounded;
+  font-size: 25px;
+  background-color:#25722A;
+  color: white;
+  padding: 5%;
+  margin-bottom: 3%;
 }
 
-.content {
-  display: flex;
-  align-items: left;
-  justify-content: flex-start;
-  gap: 30px;
-  flex: 1;
+.text_container{
+  margin: 0% 10%;
 }
-.card {
-  font-family: Arial, Helvetica, sans-serif;
+
+.paragraph {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+
+.paragraph h3 {
+  color: #25722A;
+  text-align: center;
+  font-size: 35px;
+  padding: 1%;
+}
+
+.paragraph p {
+  padding-bottom: 1%;
+}
+
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons button {
+  background-color: #25722A;
+  border-color: #346137;
+  color: white;
+  padding: 15px;
   border-radius: 10px;
-  background-color: #1b551f;
-  color: white;
-  padding: 10px;
-  margin: 5%;
-  font-size: 23px;
-}
-.new_page {
-  text-decoration: none;
-  color: white;
-}
-.new_page:hover {
-  text-decoration: underline solid 2px;
-
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 1%;
 }
 
-a .new_page{
-  font-size: 23px;
+.buttons button:hover{
+  background-color: #346137;
 }
 
-.line_1{
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
+.bring {
+  padding-left: 10%;
+  list-style:decimal;
+  font-weight: bold;
 }
-
-.blog{
-  padding-top: 30px;
-}
-iframe {
-  width: 500px;
-  height: 800px;
-}
-
-.pcmh {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#pcmh {
-  width: 250px; 
-  height: 250px;
-  object-fit: cover;
-  padding-top: none;
-}
-
-.navicall {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#navicall {
-  width: 400px;
-  height: auto;
-}
-
 /*Footer*/
 
 footer {
@@ -257,5 +248,4 @@ footer {
 
 h2 {
   padding: 5%;
-}
-  }
+}}}
