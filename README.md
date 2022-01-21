@@ -9,3 +9,6 @@ I was only going to restylize the existing text from the original page, but I go
 This is my attempt to create an interactive business website with purely HTML and CSS. 
 There are likely better solutions for creating interactive elements on a webpage that can be found with JavaScript,
 but I wanted to see what was possible with the languages I knew already. 
+
+UPDATE:
+Navigation.v3 is my attempt to make the existing site mobile-friendly (and generally learn about responsive web design).
